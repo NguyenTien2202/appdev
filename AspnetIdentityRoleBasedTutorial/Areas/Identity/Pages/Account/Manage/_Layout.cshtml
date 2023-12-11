@@ -1,0 +1,48 @@
+﻿@{
+    if (ViewData.TryGetValue("ParentLayout", out var parentLayout))
+    {
+        Layout = (string)parentLayout;
+    }
+    else
+    {
+        Layout = "/Areas/Identity/Pages/_Layout.cshtml";
+    }
+}
+
+<style>
+    .text-center{
+        color: #e4ebf5;
+    }
+    /* Định dạng cho card chứa toàn bộ nội dung */
+    #account-management-card {
+        width: 100%;
+        margin: auto;
+        margin-top: 50px;
+        border-radius: 25px;
+        box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        background-color:#e4ebf5;
+    }
+</style>
+
+<h1 class="text-center mt-5">Manage my account</h1>
+
+<!-- Container card -->
+<div id="account-management-card">
+    <div>
+        <h2>Change account settings</h2>
+        <hr />
+        <div class="row">
+            <div class="col-md-3">
+                <partial name="_ManageNav" />
+            </div>
+            <div class="col-md-9">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @RenderSection("Scripts", required: false)
+}

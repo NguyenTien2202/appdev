@@ -1,0 +1,113 @@
+﻿@model IEnumerable<AspnetIdentityRoleBasedTutorial.Models.Jewelry>
+
+<div class="d-flex flex-wrap align-items-center justify-content-between container">
+    <form asp-controller="Jewelries" asp-action="AdminIndex" method="get" class="d-flex flex-wrap align-items-center">
+        <div class="mb-3 me-3">
+            <label for="jewelryType" class="form-label" style="color:white">Type:</label>
+            <select id="jewelryType" name="jewelryType" class="form-select form-select-sm">
+                <option value=""></option>
+                @foreach (var jewelryType in ViewBag.JewelryTypes as SelectList)
+                {
+                    <option value="@jewelryType.Value">@jewelryType.Text</option>
+                }
+            </select>
+        </div>
+        <div class="mb-3 me-3">
+            <label for="category" class="form-label" style="color:white">Category:</label>
+            <select id="category" name="category" class="form-select form-select-sm">
+                <option value=""></option>
+                @foreach (var category in ViewBag.Categories as SelectList)
+                {
+                    <option value="@category.Value">@category.Text</option>
+                }
+            </select>
+        </div>
+        <div class="mb-3 me-3">
+            <label for="jewelryName" class="form-label" style="color:white">Jewelry Name:</label>
+            <input type="text" id="jewelryName" name="jewelryName" class="form-control form-control-sm" />
+        </div>
+        <div class="mb-3 me-3" style="margin-top:25px">
+            <button type="submit" class="btn btn-primary rounded-pill">Search</button>
+        </div>
+    </form>
+
+    <div class="mb-3 me-3" style="margin-top:25px;">
+        <a asp-action="Create" class="btn btn-primary">Create new product</a>
+    </div>
+</div>
+
+<div class="d-flex justify-content-center">
+    <div class="card mx-auto" style="width: 1200px; border-radius: 25px; overflow: hidden;">
+        <div class="card-body">
+            
+            <table class="table table-striped table-bordered" style="border-radius: 25px; overflow: hidden;">
+                <thead>
+                    <tr>
+                        <th>Image</th>
+                        <th>Jewelry Name</th>
+                        
+                        <th>Price</th>
+                        <th>Type</th>
+                        <th>Category</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @if (string.IsNullOrEmpty(item.Image))
+                                {
+                                    <img src="/css/images/Noimage.jpg" class="img-thumbnail" style="height:100px;width:100px">
+                                }
+                                else
+                                {
+                                    <img src="@Url.Content("~/Uploads/" + item.Image)" class="img-thumbnail" style="height:100px;width:100px;object-fit: cover;x">
+                                }
+                            </td>
+                            <td>@item.JewelryName</td>
+                            
+                            <td>@item.FormattedPrice VND</td>
+                            <td>@item.JewelryType.TypeName</td>
+                            <td>@item.Category.CategoryName</td>
+                            <td class="center-actions">
+
+                                @* <a asp-action="AdminDetails" asp-route-id="@item.Id">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+                                        <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z" />
+                                        <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z" />
+                                    </svg>
+                                </a> *@
+                                <a asp-action="Edit" asp-route-id="@item.Id">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+                                        <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z" />
+                                        <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z" />
+                                    </svg>
+                                </a>
+                                <a asp-action="Delete" asp-route-id="@item.Id">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+                                        <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5M8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5m3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0" />
+                                    </svg>
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <!-- Thêm đoạn mã hiển thị phân trang -->
+            <div class="d-flex justify-content-center">
+                <nav aria-label="Page navigation">
+                    <ul class="pagination">
+                        @for (int i = 1; i <= ViewBag.TotalPages; i++)
+                        {
+                            <li class="page-item @(ViewBag.CurrentPage == i ? "active" : "")">
+                                <a class="page-link" href="?page=@i&jewelryType=@ViewBag.SelectedJewelryType&category=@ViewBag.SelectedCategory&jewelryName=@ViewBag.SelectedJewelryName">@i</a>
+                            </li>
+                        }
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,165 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\AspnetIdentityRoleBasedTutorial\\AspnetIdentityRoleBasedTutorial\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\AspnetIdentityRoleBasedTutorial.bundle.scp.css",
+      "PackagePath": "staticwebassets\\AspnetIdentityRoleBasedTutorial.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\AspnetIdentityRoleBasedTutorial\\AspnetIdentityRoleBasedTutorial\\wwwroot\\Uploads\\185ae5b2-8e15-4101-bfb7-927a5c093486.png",
+      "PackagePath": "staticwebassets\\Uploads\\185ae5b2-8e15-4101-bfb7-927a5c093486.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\AspnetIdentityRoleBasedTutorial\\AspnetIdentityRoleBasedTutorial\\wwwroot\\Uploads\\79528ead-1d72-4d2d-8817-cd859eede02b.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\79528ead-1d72-4d2d-8817-cd859eede02b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\AspnetIdentityRoleBasedTutorial\\AspnetIdentityRoleBasedTutorial\\wwwroot\\Uploads\\9a128b4d-ad0e-472c-ba84-623dabd9b4b1.png",
+      "PackagePath": "staticwebassets\\Uploads\\9a128b4d-ad0e-472c-ba84-623dabd9b4b1.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\AspnetIdentityRoleBasedTutorial\\AspnetIdentityRoleBasedTutorial\\wwwroot\\Uploads\\StudentCard.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\StudentCard.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\AspnetIdentityRoleBasedTutorial\\AspnetIdentityRoleBasedTutorial\\wwwroot\\Uploads\\a080c485-8a0d-4e3c-8c04-f42cc529c93a.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\a080c485-8a0d-4e3c-8c04-f42cc529c93a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\AspnetIdentityRoleBasedTutorial\\AspnetIdentityRoleBasedTutorial\\wwwroot\\Uploads\\d2ff58e4-2247-4ad3-b752-ee7110114de1.png",
+      "PackagePath": "staticwebassets\\Uploads\\d2ff58e4-2247-4ad3-b752-ee7110114de1.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\AspnetIdentityRoleBasedTutorial\\AspnetIdentityRoleBasedTutorial\\wwwroot\\Uploads\\fba83824-c57d-4dcd-a26d-f59b549d60fb.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\fba83824-c57d-4dcd-a26d-f59b549d60fb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\AspnetIdentityRoleBasedTutorial\\AspnetIdentityRoleBasedTutorial\\wwwroot\\Uploads\\gn0000w001540-nhan-vang-trang-y-18k-dinh-da-pnj-1.png",
+      "PackagePath": "staticwebassets\\Uploads\\gn0000w001540-nhan-vang-trang-y-18k-dinh-da-pnj-1.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\AspnetIdentityRoleBasedTutorial\\AspnetIdentityRoleBasedTutorial\\wwwroot\\Uploads\\gnctxmy000460-nhan-vang-18k-dinh-da-citrine-pnj-1.png",
+      "PackagePath": "staticwebassets\\Uploads\\gnctxmy000460-nhan-vang-18k-dinh-da-citrine-pnj-1.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\AspnetIdentityRoleBasedTutorial\\AspnetIdentityRoleBasedTutorial\\wwwroot\\Uploads\\gnddddw000021-nhan-cuoi-bach-kim-dinh-kim-cuong-pnj-1.png",
+      "PackagePath": "staticwebassets\\Uploads\\gnddddw000021-nhan-cuoi-bach-kim-dinh-kim-cuong-pnj-1.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\AspnetIdentityRoleBasedTutorial\\AspnetIdentityRoleBasedTutorial\\wwwroot\\Uploads\\gnrbxmy000994-nhan-vang-18k-dinh-da-ruby-pnj-001.png",
+      "PackagePath": "staticwebassets\\Uploads\\gnrbxmy000994-nhan-vang-18k-dinh-da-ruby-pnj-001.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\AspnetIdentityRoleBasedTutorial\\AspnetIdentityRoleBasedTutorial\\wwwroot\\Uploads\\gnxmxmy006396-nhan-vang-18k-dinh-da-cz-pnj.png",
+      "PackagePath": "staticwebassets\\Uploads\\gnxmxmy006396-nhan-vang-18k-dinh-da-cz-pnj.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\AspnetIdentityRoleBasedTutorial\\AspnetIdentityRoleBasedTutorial\\wwwroot\\Uploads\\google.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\google.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\AspnetIdentityRoleBasedTutorial\\AspnetIdentityRoleBasedTutorial\\wwwroot\\Uploads\\imageslide\\annajewelry.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\imageslide\\annajewelry.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\AspnetIdentityRoleBasedTutorial\\AspnetIdentityRoleBasedTutorial\\wwwroot\\Uploads\\imageslide\\collectionjewelry.png",
+      "PackagePath": "staticwebassets\\Uploads\\imageslide\\collectionjewelry.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\AspnetIdentityRoleBasedTutorial\\AspnetIdentityRoleBasedTutorial\\wwwroot\\Uploads\\imageslide\\luxuuryjewelry.png",
+      "PackagePath": "staticwebassets\\Uploads\\imageslide\\luxuuryjewelry.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\AspnetIdentityRoleBasedTutorial\\AspnetIdentityRoleBasedTutorial\\wwwroot\\Uploads\\imageslide\\tiencutejewelry.png",
+      "PackagePath": "staticwebassets\\Uploads\\imageslide\\tiencutejewelry.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\AspnetIdentityRoleBasedTutorial\\AspnetIdentityRoleBasedTutorial\\wwwroot\\Uploads\\pd0000w060009-day-chuyen-bach-kim-pnj-001.png",
+      "PackagePath": "staticwebassets\\Uploads\\pd0000w060009-day-chuyen-bach-kim-pnj-001.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\AspnetIdentityRoleBasedTutorial\\AspnetIdentityRoleBasedTutorial\\wwwroot\\Uploads\\snpm00y000001-nhan-bac-dinh-da-style-by-pnj-01.png",
+      "PackagePath": "staticwebassets\\Uploads\\snpm00y000001-nhan-bac-dinh-da-style-by-pnj-01.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\AspnetIdentityRoleBasedTutorial\\AspnetIdentityRoleBasedTutorial\\wwwroot\\Uploads\\snxm00x000008-nhan-bac-style-by-pnj-dna-001.png",
+      "PackagePath": "staticwebassets\\Uploads\\snxm00x000008-nhan-bac-style-by-pnj-dna-001.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\AspnetIdentityRoleBasedTutorial\\AspnetIdentityRoleBasedTutorial\\wwwroot\\Uploads\\snxmxmw060006-nhan-bac-dinh-da-pnjsilver.png",
+      "PackagePath": "staticwebassets\\Uploads\\snxmxmw060006-nhan-bac-dinh-da-pnjsilver.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\AspnetIdentityRoleBasedTutorial\\AspnetIdentityRoleBasedTutorial\\wwwroot\\Uploads\\sp-PNDD00W000149-nhan-cuoi-nam-bach-kim-dinh-kim-cuong-pnj-1.png",
+      "PackagePath": "staticwebassets\\Uploads\\sp-PNDD00W000149-nhan-cuoi-nam-bach-kim-dinh-kim-cuong-pnj-1.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\AspnetIdentityRoleBasedTutorial\\AspnetIdentityRoleBasedTutorial\\wwwroot\\Uploads\\sp-SD0000W060102-day-chuyen-bac-pnjsilver-1.png",
+      "PackagePath": "staticwebassets\\Uploads\\sp-SD0000W060102-day-chuyen-bac-pnjsilver-1.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\AspnetIdentityRoleBasedTutorial\\AspnetIdentityRoleBasedTutorial\\wwwroot\\Uploads\\sp-gd0000w000845-day-chuyen-vang-trang-y-18k-pnj-1.png",
+      "PackagePath": "staticwebassets\\Uploads\\sp-gd0000w000845-day-chuyen-vang-trang-y-18k-pnj-1.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\AspnetIdentityRoleBasedTutorial\\AspnetIdentityRoleBasedTutorial\\wwwroot\\Uploads\\sp-gd0000y060490-day-chuyen-vang-18k-pnj-1.png",
+      "PackagePath": "staticwebassets\\Uploads\\sp-gd0000y060490-day-chuyen-vang-18k-pnj-1.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\AspnetIdentityRoleBasedTutorial\\AspnetIdentityRoleBasedTutorial\\wwwroot\\Uploads\\sp-gmxmxmh000223-mat-day-chuyen-vang-10k-dinh-da-ecz-pnj-audax-rosa-1.png",
+      "PackagePath": "staticwebassets\\Uploads\\sp-gmxmxmh000223-mat-day-chuyen-vang-10k-dinh-da-ecz-pnj-audax-rosa-1.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\AspnetIdentityRoleBasedTutorial\\AspnetIdentityRoleBasedTutorial\\wwwroot\\Uploads\\sp-sd0000w060104-day-chuyen-bac-y-pnjsilver-1.png",
+      "PackagePath": "staticwebassets\\Uploads\\sp-sd0000w060104-day-chuyen-bac-y-pnjsilver-1.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\AspnetIdentityRoleBasedTutorial\\AspnetIdentityRoleBasedTutorial\\wwwroot\\Uploads\\z4779259564204_c64327f6a14aa34e7c864b7b824c7cdf.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\z4779259564204_c64327f6a14aa34e7c864b7b824c7cdf.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\AspnetIdentityRoleBasedTutorial\\AspnetIdentityRoleBasedTutorial\\wwwroot\\Uploads\\z4854011785884_8b3e5ffdd0f602a04d98bc32d6b6e9ed.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\z4854011785884_8b3e5ffdd0f602a04d98bc32d6b6e9ed.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\AspnetIdentityRoleBasedTutorial\\AspnetIdentityRoleBasedTutorial\\wwwroot\\Uploads\\z4887975727736_0267912b91a2dd7ec38bd99d3b2a9409.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\z4887975727736_0267912b91a2dd7ec38bd99d3b2a9409.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\AspnetIdentityRoleBasedTutorial\\AspnetIdentityRoleBasedTutorial\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\AspnetIdentityRoleBasedTutorial\\AspnetIdentityRoleBasedTutorial\\wwwroot\\css\\images\\Noimage.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\Noimage.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\AspnetIdentityRoleBasedTutorial\\AspnetIdentityRoleBasedTutorial\\wwwroot\\css\\images\\backgroundhome.png",
+      "PackagePath": "staticwebassets\\css\\images\\backgroundhome.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\AspnetIdentityRoleBasedTutorial\\AspnetIdentityRoleBasedTutorial\\wwwroot\\css\\images\\backgroundincludes.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\backgroundincludes.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\AspnetIdentityRoleBasedTutorial\\AspnetIdentityRoleBasedTutorial\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.AspnetIdentityRoleBasedTutorial.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.AspnetIdentityRoleBasedTutorial.props",
+      "PackagePath": "build\\AspnetIdentityRoleBasedTutorial.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.AspnetIdentityRoleBasedTutorial.props",
+      "PackagePath": "buildMultiTargeting\\AspnetIdentityRoleBasedTutorial.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.AspnetIdentityRoleBasedTutorial.props",
+      "PackagePath": "buildTransitive\\AspnetIdentityRoleBasedTutorial.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

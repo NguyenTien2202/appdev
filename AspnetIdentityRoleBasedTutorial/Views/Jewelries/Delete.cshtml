@@ -1,0 +1,26 @@
+﻿@model AspnetIdentityRoleBasedTutorial.Models.Jewelry
+
+<div class="d-flex justify-content-center" style="margin-top:300px">
+    <div class="card mx-auto" style="width: 18rem;border-radius: 25px; overflow: hidden;">
+        <div class="card-body" >
+
+            <h3 class="card-subtitle mb-4">Do you want to delete?</h3>
+            <div class="d-flex justify-content-between">
+                <a asp-action="Index" class="btn btn-secondary">
+                    No
+                </a>
+
+                <form asp-action="Delete" method="post">
+                    <input type="hidden" asp-for="Id" />
+
+                    <button type="submit" name="confirmation" value="Yes" class="btn btn-danger">
+                        Yes
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
